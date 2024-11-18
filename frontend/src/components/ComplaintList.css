@@ -1,0 +1,41 @@
+/* ComplaintList.css */
+
+.complaint-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .complaint-header {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .complaint-details {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .status {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .status.completed {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .status.high-priority {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .status.overdue {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

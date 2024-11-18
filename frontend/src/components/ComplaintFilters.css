@@ -1,0 +1,22 @@
+.complaint-filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .complaint-filters select,
+  .complaint-filters input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 32%;
+  }
+  
+  .complaint-filters input::placeholder {
+    font-style: italic;
+  }
+  
